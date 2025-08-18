@@ -11,7 +11,8 @@ from langchain.callbacks import StreamlitCallbackHandler
 st.set_page_config(page_title="Text to math problem solver and data search assistant",page_icon="🧮")
 st.title("Text to Math Problem Solver Using google gemma2 model")
 
-GROQ_API_KEY=st.sidebar.text_input(label="Groq Api key",type="password")
+#GROQ_API_KEY=st.sidebar.text_input(label="Groq Api key",type="password")
+GROQ_API_KEY=GROQ_API_KEY
 
 
 if not GROQ_API_KEY:
@@ -95,4 +96,5 @@ if st.button("find my answer"):
 
     else:
         st.warning("Please enter the question")
+
 
