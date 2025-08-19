@@ -6,6 +6,7 @@ from langchain_community.utilities import WikipediaAPIWrapper
 from langchain.agents.agent_types import AgentType
 from langchain.agents import Tool, initialize_agent
 from langchain.callbacks import StreamlitCallbackHandler
+#####
 
 ## setup streamlit app
 st.set_page_config(page_title="Text to math problem solver and data search assistant",page_icon="🧮")
@@ -96,6 +97,7 @@ if st.button("find my answer"):
 
     else:
         st.warning("Please enter the question")
+
 
 
 
