@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://ishwinder786:$HF_TOKEN@huggingface.co/spaces/ishwinder786/math_solver main
+        run: git push https://ishwinder786:$HF_TOKEN@huggingface.co/spaces/ishwinder786/math_solver1 main
